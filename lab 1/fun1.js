@@ -19,16 +19,18 @@
 // }
 // main();
 
-const f1= () => {
-    console.log("hello f1");
+const f1 = () => {
+  console.log("hello f1");
 };
 const f2 = () => {
   console.log("hello f2");
 };
-function main(){
-    console.log("main");
-    setTimeout(f1,0);
-    new Promise((resolve, reject)=> {
-        resolve("i am promise");
-    })
+function main() {
+  console.log("main");
+  setTimeout(f1, 0);
+  new Promise((resolve, reject) => {
+    resolve("i am promise");
+  }).then((result) => {
+    console.log(result);
+  });
 }
