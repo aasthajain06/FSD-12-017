@@ -1,5 +1,16 @@
 import  readline from "readline/promises";
 import { stdin, stdout } from "process";
+import {readFileSync, writeFileSync} from "fs/promises";
+
+const FILE="product.json";
+
+const getCart=async()=>{
+    const data=await readFile(FILE,"utf-8");
+    return JSON.parse(data);
+};
+
+const saveCart=async(cart)=>{
+    await writeFile(FILE,JSON.stringify
 
 const main =async () => {
     let choice;
