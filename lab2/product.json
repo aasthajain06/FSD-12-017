@@ -1,0 +1,20 @@
+[
+  {
+    "id": 2,
+    "name": "asd",
+    "price": 300,
+    "qty": 3
+  },
+  {
+    "id": null,
+    "name": "qwerty",
+    "price": 23000,
+    "qty": 12
+  },
+  {
+    "id": null,
+    "name": "asdfg",
+    "price": 34567,
+    "qty": 89
+  }
+]

@@ -6,7 +6,7 @@
 5. Stream -> readStream(), writeStream()
 all fxns are promise, so it must be called with 'await' keyword
 
-#CRUD Project
+#CRUD (create, retrieve, update, delete) Project
 assume we are making cart related project
 1. user can add any product (id,name,price,qty) into cart
 2. user can see all the items if cart
