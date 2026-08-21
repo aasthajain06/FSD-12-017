@@ -42,7 +42,7 @@ const removeFromCart = async (id) => {
     }
     else{
         await saveCart(newData);
-        console.log(`Product with id ${id} removed from cart`);
+        await saveCart(newData);
     }
 };
 
